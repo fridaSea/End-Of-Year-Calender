@@ -1,0 +1,47 @@
+/* .card {
+  border: 1px solid;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 300px; /* Beispielbreite 
+  text-align: center;
+}
+
+.card h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-3px); /* kleiner Hover-Effekt 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none; /* sicherstellen, dass beim Hover keine Linie erscheint 
+} */
+
+.card {
+  display: block; /* macht die ganze Fläche klickbar */
+  text-decoration: none; /* entfernt Unterstreichung */
+  color: inherit; /* übernimmt Textfarbe */
+  /* background-color: white; /* oder was du willst 
+  border: 1px solid #ccc; */
+  border: 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+/* 
+.card:link,
+.card:visited,
+.card:active {
+  text-decoration: none;
+  color: inherit;
+} */
