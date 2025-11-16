@@ -3,6 +3,12 @@ import "./Calendar.css";
 
 function Calendar() {
   const days = Array.from({ length: 31 }, (_, i) => i + 1);
+
+  // console.log("days :>> ", days);
+  // const mappedDays = days.map((_, x) => x + 1);
+
+  // console.log("mappedDays :>> ", mappedDays);
+
   return (
     <>
       <h1>End of Year Calender</h1>
@@ -22,13 +28,13 @@ function Calendar() {
           <h3>Tag {day}</h3>
         </Card>
       ))}
-
-      {/* <Card>
-        <h2>1</h2>
-         onClick -> Türchen öffnen in Modal 
-      </Card> */}
     </>
   );
 }
 
 export default Calendar;
+
+// Kalendertürchen öffnen
+// 1. current Date herausfinden
+// 2. if (new Date().getDate() >= day) {
+// Türchen darf geöffnet werden }
